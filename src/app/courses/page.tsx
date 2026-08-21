@@ -20,27 +20,41 @@ export default function CoursesPage() {
         {
             id: 2,
             code: "10301232",
+            title: "Network",
+            credits: 3,
+            isOpen: true,
+        },
+        {
+            id: 3,
+            code: "10301233",
             title: "Database Systems",
             credits: 3,
             isOpen: false,
         },
+        {
+            id: 4,
+            code: "10301234",
+            title: "Structure Relational Database",
+            credits: 3,
+            isOpen: true,
+        },
     ];
 
-    const course: Course = {
-        id: 1,
-        code: "10301231",
-        title: "Web Technology",
-        credits: 3,
-        isOpen: true,
-    };
+    // const course: Course = {
+    //     id: 1,
+    //     code: "10301231",
+    //     title: "Web Technology",
+    //     credits: 3,
+    //     isOpen: true,
+    // };
     return (
         <div>
-            <article>
+            {/* <article>
                 <h2>{course.title}</h2>
                 <p>รหัสวิชา: {course.code}</p>
                 <p>{course.credits} หน่วยกิต</p>
                 <p>{course.isOpen ? "เปิดลงทะเบียน" : "ปิดลงทะเบียน"}</p>
-            </article>
+            </article> */}
             {courses.map((course, index) => (
                 <article key={course.id} className="courseCard">
                     <h2>{course.title}</h2>

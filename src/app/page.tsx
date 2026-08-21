@@ -5,7 +5,7 @@ import styles from "./page.module.css";
 
 export default function Home() {
   const siteName = "Next-js";
-  const courseCount: number = 3;
+  const courseCount: number = 4;
   const isOpen: boolean = true;
 
   const topics: string[] = [

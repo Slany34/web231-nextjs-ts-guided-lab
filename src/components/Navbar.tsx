@@ -20,6 +20,11 @@ export default function Navbar() {
                         เกี่ยวกับ
                     </Link>
                 </li>
+                <li>
+                    <Link className="navLink" href="notfound">
+                        abc
+                    </Link>
+                </li>
             </ul>
         </nav>
     );
