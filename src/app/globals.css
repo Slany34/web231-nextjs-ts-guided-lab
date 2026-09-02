@@ -13,7 +13,25 @@ body {
 div{
   display: flex;
   flex-direction: column;
+  text-align: center;
+  align-items: center;
+  background: rgb(255, 255, 255);
 }
+
+article{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  padding: 10%;
+  border: 1px solid #d1d5db; 
+  border-radius: 0.75rem; 
+  background: rgb(122, 121, 121); 
+  margin: 10px;
+  width: 40%;
+  padding: 10px;
+}
+
  
 .siteHeader { 
   background: #14532d; 
@@ -24,7 +42,7 @@ div{
   /* width: min(100% - 2rem, 70rem);  */
   width: max(100%); 
   margin-inline: auto; 
-  background-color: #0a0a0a;
+  background-color: #000000;
 } 
  
 .navList { 

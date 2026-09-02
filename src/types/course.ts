@@ -5,3 +5,7 @@ export type Course = {
         credits: number;
         isOpen: boolean;
     };
+
+export type CourseCardProps = { 
+  course: Course; 
+};

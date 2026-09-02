@@ -1,4 +1,5 @@
 import { Course } from "@/types/course"
+import { CourseCardProps } from "@/types/course"
 
 // type Course = {
 //         id: number;
@@ -11,9 +12,7 @@ import { Course } from "@/types/course"
 // type CourseCardProps = { 
 //   course : Course;
 // };
-type CourseCardProps = { 
-  course: Course; 
-};
+
 
 export default function CoursesCard({course}: CourseCardProps){
     return(
