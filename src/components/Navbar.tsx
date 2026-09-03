@@ -30,11 +30,6 @@ export default function Navbar() {
                         วงดนตรีที่ชอบ
                     </Link>
                 </li>
-                <li>
-                   <Link className="navLink" href="/A">
-                        A
-                    </Link>
-                </li>
             </ul>
         </nav>
     );
