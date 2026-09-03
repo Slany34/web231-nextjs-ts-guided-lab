@@ -4,10 +4,11 @@
  
 body { 
   margin: 0; 
-  color: #1f2937; 
+  color: #000000; 
   background: #f8fafc; 
   font-family: Arial, sans-serif; 
   text-align: center;
+  background: rgb(255, 255, 255);
 } 
 
 div{
@@ -15,7 +16,6 @@ div{
   flex-direction: column;
   text-align: center;
   align-items: center;
-  background: rgb(255, 255, 255);
 }
 
 article{
@@ -30,7 +30,15 @@ article{
   margin: 10px;
   width: 40%;
   padding: 10px;
+  color: rgb(255, 255, 255);
 }
+
+.courseCard { 
+  padding: 1rem; 
+  border: 1px solid #d1d5db; 
+  border-radius: 0.75rem; 
+  background: rgb(122, 121, 121);
+} 
 
  
 .siteHeader { 
@@ -73,12 +81,7 @@ article{
   gap: 1rem; 
 } 
  
-.courseCard { 
-  padding: 1rem; 
-  border: 1px solid #d1d5db; 
-  border-radius: 0.75rem; 
-  background: rgb(255, 255, 255); 
-} 
+
 
 
 

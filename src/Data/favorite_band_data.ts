@@ -23,7 +23,7 @@ export const favorite_band : FRB[] = [
     }
     ,
     {
-        picture: "/images/bands/Imagine-dragons.webp",
+        picture: "/images/bands/imagine_dragon.jpg",
         name: "Imagine Dragons",
         description: "Imagine Dragons ก่อตั้งขึ้นในปี ค.ศ. 2008 ที่เมืองลาสเวกัส รัฐเนวาดา มีชื่อเสียงระดับโลกจากเพลงฮิตที่มีจังหวะทรงพลังและยอดสตรีมมหาศาล",
         members: ["Dan Reynolds", "Wayne Sermon", "Ben McKee"]
