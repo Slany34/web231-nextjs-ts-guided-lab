@@ -9,6 +9,7 @@ body {
   font-family: Arial, sans-serif; 
   text-align: center;
   background: rgb(255, 255, 255);
+  width: 100%;
 } 
 
 div{
@@ -16,6 +17,7 @@ div{
   flex-direction: column;
   text-align: center;
   align-items: center;
+  align-content: center;
 }
 
 article{
@@ -24,9 +26,9 @@ article{
   text-align: center;
   align-items: center;
   padding: 10%;
-  border: 1px solid #d1d5db; 
+  border: 1px solid #383839; 
   border-radius: 0.75rem; 
-  background: rgb(122, 121, 121); 
+  background: rgb(26, 26, 26); 
   margin: 10px;
   width: 40%;
   padding: 10px;
@@ -45,6 +47,13 @@ article{
   background: #14532d; 
 } 
  
+.navbar { 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  padding: 0.5%;
+  
+}
 .navbar, 
 .page { 
   /* width: min(100% - 2rem, 70rem);  */
@@ -59,6 +68,7 @@ article{
   margin: 0; 
   padding: 1% 0; 
   list-style: none; 
+  
 } 
  
 .navLink { 
@@ -135,4 +145,49 @@ a {
   html {
     color-scheme: dark;
   }
+}
+
+
+#members-list {
+  cursor: pointer;
+  color: #ffffff; /* สีของข้อความ */
+}
+
+#members-list:hover {
+  color: #4b4b4b; /* สีของข้อความเมื่อ hover */
+}
+
+#popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* พื้นหลังสีดำโปร่งแสง */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#popup-modal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(34, 34, 34); /* กล่องสีขาว */
+  padding: 20px;
+  border-radius: 8px;
+  width: 80%;
+  max-width: 500px;
+  position: relative;
+}
+
+#popup-close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #ffffff; /* สีของปุ่มกากบาท */
 }

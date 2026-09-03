@@ -3,6 +3,7 @@ import styles from "./page.module.css";
 
 
 
+
 export default function Home() {
   const siteName = "Next-js";
   const courseCount: number = 4;
@@ -27,3 +28,4 @@ export default function Home() {
     </div>
   );
 }
+
